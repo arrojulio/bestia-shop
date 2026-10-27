@@ -2,7 +2,7 @@
 
 ## Lectura inicial
 
-Leer README.md y MEMORY.md antes de modificar el proyecto. Inspeccionar el árbol y las instrucciones adicionales que correspondan a la ruta de trabajo.
+Leer README.md, MEMORY.md y docs/PLAN_GENERAL.md antes de modificar el proyecto. Inspeccionar el árbol y las instrucciones adicionales que correspondan a la ruta de trabajo.
 
 ## Objetivo
 
@@ -26,7 +26,9 @@ El alcance funcional del README es una propuesta. Confirmar decisiones que cambi
 - Inspeccionar código, configuración y recursos existentes antes de implementar; respetar el stack aprobado.
 - No asumir Java, Spring, Vaadin, React u otro stack por preferencias de proyectos ajenos.
 - Favorecer una solución simple acorde al volumen y al alcance acordado.
-- Reutilizar las fotos y ejemplos reales cuando se localicen; conservar los originales.
+- Usar como referencias las imágenes revisadas en ejemplo-productos; conservar los originales. No confundir archivos de referencia con productos comerciales distintos.
+- Respetar el concepto de pasión y pertenencia a Boca y la cultura de tribuna; distinguir propuestas de segmento y diseño de decisiones aprobadas. No inferir especificaciones de prendas desde sus fotos.
+- Incorporar la referencia de pantalones cuando se verifique; confirmar categorías blusas/musculosas antes de publicar el catálogo.
 - No inventar precios, stock, talles, credenciales, datos comerciales o una afiliación oficial con Boca Juniors.
 - Distinguir datos de demostración de datos reales.
 - No introducir animaciones por defecto. Priorizar claridad y accesibilidad.
