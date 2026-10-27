@@ -8,7 +8,9 @@ Ofrecer un catálogo y un carrito de compras fáciles de usar desde el celular, 
 
 ## Estado actual
 
-Al 27 de octubre de 2026, la rama principal contiene documentación inicial. No hay una aplicación, stack tecnológico ni comandos de ejecución verificados.
+Al 27 de octubre de 2026, la rama de trabajo acordada es `master` y contiene documentación inicial. Julio eligió WordPress + WooCommerce, PHP y MySQL para alojar la tienda en su plan Hostinger Cloud Startup Hosting. La instalación y los comandos de ejecución todavía no se verificaron.
+
+El proyecto es independiente de Santé. No asumir código, datos, configuración ni integraciones compartidas.
 
 Julio indicó que existen ejemplos de prendas; sus archivos y ubicación todavía deben localizarse. No se han verificado imágenes de productos en la rama principal.
 
@@ -31,11 +33,11 @@ La primera interpretación de trabajo es una tienda web accesible mediante enlac
 ## Decisiones pendientes
 
 - Identidad visual y ubicación de fotos y ejemplos.
-- Tecnología, arquitectura y alojamiento.
+- Versiones compatibles de WordPress, WooCommerce y PHP, y configuración del sitio en Hostinger.
 - Moneda, precios, talles, colores y disponibilidad inicial.
 - Canal de cierre: checkout web, WhatsApp u otro.
 - Medios de pago, envíos, retiro y cambios.
-- Forma de administrar productos, pedidos y stock.
+- Configuración de la administración de productos, pedidos y stock en WooCommerce.
 - Alcance concreto de la relación con Instagram.
 
 ## Criterios de aceptación propuestos
@@ -51,7 +53,11 @@ La primera interpretación de trabajo es una tienda web accesible mediante enlac
 
 ## Desarrollo
 
-Todavía no se definieron dependencias, instalación, pruebas o despliegue. Esta sección debe actualizarse con comandos comprobados cuando exista la aplicación.
+Usar las capacidades estándar de WooCommerce para catálogo, variantes, carrito, pedidos y administración. Versionar en GitHub la documentación, el tema hijo y los plugins propios que se necesiten; no modificar el núcleo de WordPress, WooCommerce ni plugins de terceros. La base de datos, las imágenes subidas y los secretos requieren gestión y respaldos independientes de Git.
+
+Próximos pasos: definir dominio o subdominio de pruebas, instalar WordPress y WooCommerce, seleccionar un tema y cargar un producto de prueba con variantes. Después, configurar pagos y envíos y verificar una compra completa antes de publicar.
+
+La instalación, las pruebas y el despliegue aún no se realizaron desde esta sesión. Actualizar esta sección con versiones y procedimientos comprobados al ejecutarlos.
 
 ## Documentación
 
