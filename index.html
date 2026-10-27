@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#082c68">
+    <meta name="description" content="Indumentaria xeneize para alentar a Boca con estilo.">
+    <title>Bestia Shop | Indumentaria xeneize</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Bestia Shop, inicio">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>BESTIA<span class="brand-shop">SHOP</span></span>
+      </a>
+      <a class="header-cart" href="#carrito">
+        Mi carrito <span id="cart-count" class="cart-count" aria-live="polite">0</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">PASIÓN QUE SE VISTE</p>
+        <h1 id="hero-title">Llevá los colores<br> a todas partes.</h1>
+        <p>Indumentaria xeneize para alentar a Boca con estilo.</p>
+        <a class="button button-yellow" href="#productos">Ver colección</a>
+        <span class="hero-star" aria-hidden="true">★</span>
+      </section>
+
+      <div class="shop-layout">
+        <section class="catalog" id="productos" aria-labelledby="products-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">LA COLECCIÓN</p>
+              <h2 id="products-title">Elegí tu camiseta</h2>
+            </div>
+            <span class="catalog-note">Hecho para alentar</span>
+          </div>
+          <div id="product-list" class="product-list"></div>
+        </section>
+
+        <aside class="cart-panel" id="carrito" aria-labelledby="cart-title">
+          <div class="cart-heading">
+            <h2 id="cart-title">Tu carrito</h2>
+            <span id="cart-heading-count" class="cart-heading-count">0 productos</span>
+          </div>
+          <div id="cart-items" class="cart-items" aria-live="polite"></div>
+          <div class="cart-summary">
+            <div class="total-line">
+              <span>Total</span>
+              <strong id="cart-total">$ 0</strong>
+            </div>
+            <button id="clear-cart" class="clear-cart" type="button" disabled>Vaciar carrito</button>
+          </div>
+          <p class="cart-footnote">Los precios están expresados en pesos argentinos.</p>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <span class="brand-mark" aria-hidden="true">B</span>
+      <p>Hecho para la mitad más uno. <span>★</span></p>
+    </footer>
+  </body>
+</html>
