@@ -12,7 +12,9 @@ Al 27 de octubre de 2026, la rama de trabajo acordada es `master` y contiene doc
 
 El proyecto es independiente de Santé. No asumir código, datos, configuración ni integraciones compartidas.
 
-Julio indicó que existen ejemplos de prendas; sus archivos y ubicación todavía deben localizarse. No se han verificado imágenes de productos en la rama principal.
+Se revisaron `ejemplo-productos/demo1.jpg`, `demo2.jpg` y `demo3.jpg` en `master`: una remera, una presentación de musculosa y una referencia de estampa. Julio indicó que los pantalones seguirán una línea similar y que subirá su imagen; esa referencia aún no fue verificada. Confirmar la categoría blusas/musculosas antes de cerrar el catálogo.
+
+Concepto: indumentaria urbana para expresar pasión y pertenencia a Boca, con La Doce y la cultura de tribuna como referencias de identidad. El [plan general](docs/PLAN_GENERAL.md) desarrolla público, productos, posicionamiento y etapas de trabajo. La segmentación es una propuesta pendiente de validar con compradores.
 
 ## Alcance inicial propuesto
 
@@ -32,7 +34,7 @@ La primera interpretación de trabajo es una tienda web accesible mediante enlac
 
 ## Decisiones pendientes
 
-- Identidad visual y ubicación de fotos y ejemplos.
+- Identidad visual definitiva, catálogo completo y referencia de pantalones.
 - Versiones compatibles de WordPress, WooCommerce y PHP, y configuración del sitio en Hostinger.
 - Moneda, precios, talles, colores y disponibilidad inicial.
 - Canal de cierre: checkout web, WhatsApp u otro.
@@ -55,12 +57,13 @@ La primera interpretación de trabajo es una tienda web accesible mediante enlac
 
 Usar las capacidades estándar de WooCommerce para catálogo, variantes, carrito, pedidos y administración. Versionar en GitHub la documentación, el tema hijo y los plugins propios que se necesiten; no modificar el núcleo de WordPress, WooCommerce ni plugins de terceros. La base de datos, las imágenes subidas y los secretos requieren gestión y respaldos independientes de Git.
 
-Próximos pasos: definir dominio o subdominio de pruebas, instalar WordPress y WooCommerce, seleccionar un tema y cargar un producto de prueba con variantes. Después, configurar pagos y envíos y verificar una compra completa antes de publicar.
+Próximos pasos: crear un sitio con dominio temporal de Hostinger, instalar WordPress y WooCommerce, seleccionar un tema y cargar un producto de prueba con variantes. Después, configurar pagos y envíos y verificar una compra completa antes de publicar.
 
 La instalación, las pruebas y el despliegue aún no se realizaron desde esta sesión. Actualizar esta sección con versiones y procedimientos comprobados al ejecutarlos.
 
 ## Documentación
 
+- [Plan general](docs/PLAN_GENERAL.md): visión, cultura de hincha, público objetivo propuesto, productos, canales y plan de acción.
 - [Memoria del proyecto](MEMORY.md): contexto, hechos confirmados y decisiones pendientes.
 - [Instrucciones de trabajo](AGENTS.md): reglas para asistentes y colaboradores.
 
