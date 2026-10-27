@@ -16,18 +16,31 @@
 
 Fuente: indicaciones de Julio durante esta conversación.
 
-- Usar `master` como rama de trabajo. Fue creada con los tres documentos; no se ha confirmado un cambio de la rama predeterminada en GitHub.
+- Usar `master` como rama de trabajo y predeterminada. Julio realizó el cambio y se verificó mediante los metadatos de GitHub.
 - Plan de alojamiento informado por Julio: Hostinger Cloud Startup Hosting.
 - Stack elegido expresamente: WordPress + WooCommerce, PHP y MySQL.
 - Motivo: cubrir una tienda estándar de ropa usando funcionalidades existentes.
+- Comenzar con dominio temporal de Hostinger; dominio definitivo pendiente. No hay URL ni instalación temporal confirmada.
 - Bestia Shop y Santé son proyectos independientes.
 - La conexión disponible en esta sesión es Hostinger Mail; no se confirmó acceso administrativo a hPanel. No se instaló ni desplegó la tienda.
+
+## Concepto y referencias revisadas — 2026-10-27
+
+- Julio define el público desde su pasión por Boca Juniors y su identificación con La Doce como símbolo de hinchada y pertenencia.
+- Concepto comercial: indumentaria urbana para expresar esa identidad, con estampas protagonistas y experiencia de compra desde el celular.
+- Se revisaron visualmente las tres imágenes de `ejemplo-productos` en `master`: demo1 muestra una remera negra; demo2 presenta una musculosa de frente y espalda; demo3 muestra la gráfica sobre un soporte blanco sin prenda completa identificable.
+- Motivos observados: LA 12, tribuna, banderas, escudos CABJ y frase “Los dueños de la historia”. Negro/blanco con azul y amarillo. Las imágenes no acreditan especificaciones, precio, calidad ni stock.
+- Los tres archivos no prueban tres productos distintos. Confirmar si “blusas” corresponde a una categoría adicional o al nombre dado a las musculosas.
+- Julio confirmó pantalones de una línea similar y anunció que subirá su imagen. No se verificó aún esa referencia.
+- El público principal propuesto son hinchas afines a esta estética; regalos y moda urbana futbolera son segmentos secundarios por validar. Sin tamaño de mercado, edades, precios ni demanda cuantificada.
+- La propuesta de marca se centra en la cultura de hincha; no se documentó representación oficial del club o de una organización.
 
 ## Documentación creada
 
 - README.md: objetivo, estado y alcance inicial propuesto.
 - MEMORY.md: contexto y decisiones persistentes.
 - AGENTS.md: instrucciones para asistentes y colaboradores.
+- docs/PLAN_GENERAL.md: visión, contexto cultural, evidencia visual, segmentos propuestos, canales, plataforma y etapas hasta lanzamiento.
 
 ## Propuestas todavía no aprobadas
 
@@ -38,16 +51,16 @@ Fuente: indicaciones de Julio durante esta conversación.
 
 ## Decisiones pendientes
 
-1. Localizar las fotos y ejemplos y verificar a qué productos corresponden.
+1. Completar la referencia de pantalones y las fichas reales; confirmar categorías y variantes.
 2. Confirmar si Instagram solo enlaza la tienda o requiere una integración específica.
 3. Acordar el flujo de compra y su cierre.
 4. Definir moneda, catálogo, variantes, stock y precios.
 5. Definir pagos, entrega, retiro y cambios.
-6. Definir dominio o subdominio de pruebas, versiones compatibles y tema de WooCommerce.
+6. Crear el dominio temporal, verificar versiones compatibles y elegir tema de WooCommerce; definir más adelante el dominio final.
 
 ## Siguiente paso recomendado
 
-Preparar una instalación de prueba de WordPress y WooCommerce en Hostinger cuando se disponga del acceso necesario y se defina su dominio. Localizar los materiales y cargar un producto con talles y colores para verificar el recorrido de compra. Configurar pagos y entrega después de acordarlos.
+Seguir docs/PLAN_GENERAL.md: completar materiales y datos comerciales; preparar WordPress y WooCommerce con dominio temporal cuando se disponga del acceso necesario; cargar una prenda con talles y colores y verificar el carrito. Configurar pagos y entrega después de acordarlos. El plan no implica que ya se instaló o publicó la tienda.
 
 ## Mantenimiento
 
