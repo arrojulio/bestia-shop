@@ -10,10 +10,20 @@ Construir una tienda y carrito para prendas orientadas a seguidores de La 12 y B
 
 El alcance funcional del README es una propuesta. Confirmar decisiones que cambien la compra, los servicios contratados o la arquitectura antes de asumirlas como aprobadas.
 
+## Base tecnológica y repositorio
+
+- Trabajar en `master`, según indicación de Julio.
+- Stack aprobado: WordPress + WooCommerce, PHP y MySQL, sobre Hostinger Cloud Startup Hosting.
+- Usar funcionalidades estándar antes de desarrollar extensiones.
+- Implementar personalizaciones en un tema hijo o plugins propios. No editar el núcleo ni dependencias de terceros.
+- Versionar documentación y personalizaciones; excluir secretos, respaldos de base de datos y datos de compradores. Respaldar por separado base de datos y medios subidos.
+- El proyecto es independiente de Santé; no reutilizar sus datos o configuración por suponer una relación.
+- Verificar versiones compatibles y capacidades reales del alojamiento antes de instalar.
+
 ## Reglas del proyecto
 
 - Mantener documentación y comunicación en español.
-- Inspeccionar código, configuración y recursos existentes antes de elegir tecnologías.
+- Inspeccionar código, configuración y recursos existentes antes de implementar; respetar el stack aprobado.
 - No asumir Java, Spring, Vaadin, React u otro stack por preferencias de proyectos ajenos.
 - Favorecer una solución simple acorde al volumen y al alcance acordado.
 - Reutilizar las fotos y ejemplos reales cuando se localicen; conservar los originales.
